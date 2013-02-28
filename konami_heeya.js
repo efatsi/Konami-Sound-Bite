@@ -4,7 +4,7 @@
 
 	// load the soundbite to class="play"
 	var clip = document.createElement('audio');
-	clip.src = "http://api.soundcloud.com/tracks/59839123/stream?client_id=72325d0b84c6a7f4bbef4dd86c0a5309";
+	clip.src = "http://api.soundcloud.com/tracks/81163658/stream?client_id=72325d0b84c6a7f4bbef4dd86c0a5309";
 	$('.konamiSoundBite').click( function(e) {
 		clip.play();
 	});
@@ -13,7 +13,7 @@
 	if (window.addEventListener) {
 		// create the keys and konami variables
 		var keys = [],
-		steakmoney = "83,84,69,65,75,77,79,78,69,89"
+		steakmoney = "38,38,40,40,37,39,37,39,66,65"
 
 		// bind the keydown event
 		window.addEventListener("keydown", function(e) {
