@@ -16,7 +16,7 @@
 	if (window.addEventListener) {
 		// create the keys and konami variables
 		var keys = [],
-		konamiString = "38,38,40,40,37,39,37,39,66,65"
+		konamiString = "83,84,69,65,75,77,79,78,69,89"
 
 		// bind the keydown event
 		window.addEventListener("keydown", function(e) {
